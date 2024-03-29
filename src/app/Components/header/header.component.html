@@ -1,0 +1,23 @@
+<p>
+  <mat-toolbar color="accent">
+    <span>News & Articles</span>
+    <span class="example-spacer"></span>
+    <button
+      mat-raised-button
+      [color]="adminBtnColor"
+      (click)="adminBtnClick()"
+    >
+      Admin
+    </button>
+    <button
+      mat-raised-button
+      [color]="userBtnColor"
+      style="margin-left: 10px"
+      (click)="userBtnClick()"
+    >
+      User
+    </button>
+  </mat-toolbar>
+</p>
+
+<router-outlet></router-outlet>

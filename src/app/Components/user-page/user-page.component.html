@@ -1,0 +1,41 @@
+<div class="container">
+  @if (hasError) {
+  <h2 class="error-announcement">404 Not Found</h2>
+  } @else {
+  <div class="card-container">
+    @for (article of articles; track article) {
+    <div class="article-card">
+      <div class="article-title">
+        <h2>{{ article.title | slice : 0 : 101 | replaceLastLetter }}</h2>
+      </div>
+      <p class="article-author">
+        <span>Author:</span> <b>{{ article.author }}</b>
+      </p>
+      <p class="article-date">
+        <span>Created At: </span> <b>{{ article.date | customDate }}</b>
+      </p>
+      <hr />
+      <p class="article-content">
+        {{ article.content }}
+      </p>
+      <hr />
+      <div class="actions">
+        <button mat-raised-button color="accent">More</button>
+        <button mat-raised-button color="primary">Share</button>
+        <button mat-raised-button color="warn">Like</button>
+      </div>
+    </div>
+    }
+  </div>
+  
+  <div class="paginator-container">
+    <mat-paginator
+      [length]="100"
+      [pageSize]="3"
+      aria-label="Select page"
+      class="paginator"
+    >
+    </mat-paginator>
+  </div>
+  }
+</div>

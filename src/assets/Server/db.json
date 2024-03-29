@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Cougar Travels 1,000 Miles East in One of the Longest Recorded Treks.",
+      "author": "Andy Corbley",
+      "content": "Cheekily described as “reverse feline Manifest Destiny,” a GPS-collared mountain lion or cougar was recorded traveling 1,000 miles eastward from her home in Central Utah to the eastern slopes of the Rockies.It’s an incredible journey that showcases just how at home this extirpated mammal is in America’s wilderness areas, and hints that, proper management permitting, this species could recolonize several states east of the Rocky Mountains such as Arkansas and Missouri, where it once roamed.",
+      "date": "2024-03-28T20:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Despite Faulty Metal Detector, Treasure Hunter Unearths Largest Gold Nugget Ever Found in England",
+      "author": " Good News Network",
+      "content": "Despite having a faulty metal detector and having to use an old back-up, a treasure hunter discovered the largest gold nugget ever found in England. Richard Brock traveled three-and-a-half hours from his home in Somerset to join an organized expedition on farmland in the Shropshire Hills. Upon arrival, he found he had difficulty with his detecting device and had to resort to using a dodgy older machine that was not even working properly.",
+      "date": "2024-03-23T20:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "High-Speed Railway Progresses Towards a 200-mph Train Line",
+      "author": "Andy Corbley",
+      "content": "High-speed rail is a standard form of transport in places like Germany, France, Italy, China, Japan, and Switzerland, but with any luck at all, it should be coming to the Lone Star State before long. Texas Central has progressed through the planning stage and settled landowning disputes regarding a high-speed railway line from Dallas to Houston, which usually requires a 2-hour flight, a 4-hour drive, or a 5-hour bus ride.",
+      "date": "2024-03-10T20:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "10-Year-old Raises $80,000 for Pearl Harbor Memorial After School Project Inspires Deep Admiration",
+      "author": "Andy Corbley",
+      "content": "The bean fields and mountains of North Carolina are 5 time zones and more than 5,000 miles from Hawai’i, but such differences are trifles compared to the determination of youth. 11-year-old Harrison Johnson from North Carolina has raised $81,000 to help fund history projects to tell the story of the attack on Pearl Harbor. The money was raised by collecting donations door-to-door, selling patriotic popsicles, and public speaking engagements (yes, by Harrison himself).",
+      "date": "2024-03-08T20:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Former UFC Heavyweight Champ Mark Coleman Saves Parents from House Fire, Fans Raise $121k for Hospital Bills",
+      "author": "Andy Corbley",
+      "content": "While visiting his childhood home, former UFC Heavyweight Champion and Hall of Famer Mark Coleman was woken up by his beloved dog Hammer at 4:00 a.m. as the house was being consumed with fire. Swapping his metaphorical championship belt for a cape, Coleman managed to run through the burning house and save his elderly parents before succumbing to smoke inhalation. Rushed to the hospital, he “battled for his life” until he was able to breathe on his own again 3 days later.",
+      "date": "2024-03-11T20:00:00.000Z"
+    }
+  ]
+}

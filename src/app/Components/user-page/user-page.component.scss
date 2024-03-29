@@ -1,0 +1,116 @@
+.container {
+  max-width: 1040px;
+  min-height: 700px;
+  background-color: #b0bec5;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  .card-container {
+    max-width: 1010px;
+    background-color: #b0bec5;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .article-card {
+      width: 330px;
+      height: 510px;
+      background-color: #fff;
+      border-radius: 20px;
+      margin-top: 10px;
+      border: 2px solid #114076;
+
+      .article-title {
+        word-wrap: break-word;
+        border: 1px solid #114076;
+        border-radius: 15px 15px 0 0;
+        color: #fff;
+        width: 329px;
+        height: 166px;
+        font-size: 17px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        background-color: #114076;
+        margin-bottom: 5px;
+        h2 {
+          padding: 5px;
+          margin-top: 10px;
+          margin-left: 5px;
+        }
+      }
+      .article-author {
+        padding: 5px;
+        span {
+          font-style: italic;
+          text-decoration: underline;
+        }
+        b {
+          margin-left: 10px;
+          font-size: 18px;
+        }
+      }
+      .article-content {
+        height: 155px;
+        padding: 6px;
+        font-size: 15px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        width: 99%;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+      }
+      .article-date {
+        padding: 5px;
+        span {
+          font-style: italic;
+          text-decoration: underline;
+        }
+        b {
+          margin-left: 10px;
+          font-size: 18px;
+        }
+      }
+      .actions {
+        width: 235px;
+        margin: 0 auto;
+        button {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .paginator-container {
+    max-width: 1000px;
+    height: 90px;
+    background-color: #b0bec5;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    .paginator {
+      width: 330px;
+      border-radius: 15px;
+      height: 60px;
+      font-size: 9px;
+      margin-top: 30px;
+    }
+  }
+}
+.error-announcement {
+  color: rgb(202, 10, 10);
+  font-weight: 700;
+  font-size: 45px;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
+}
